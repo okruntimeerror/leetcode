@@ -1,0 +1,11 @@
+class Solution:
+    def runningSum(self, nums: List[int]) -> List[int]:
+        answer = [] 
+        dummy = [] 
+        length = len(nums) 
+        for n in range(length):
+            dummy.append(nums[n]) 
+            val = sum(dummy) 
+            answer.append(val)
+            
+        return answer;
