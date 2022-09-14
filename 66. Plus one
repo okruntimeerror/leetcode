@@ -14,3 +14,4 @@ class Solution:
         answer = [int(i) for i in str(converted)]
         
         return answer 
+/* 74ms Runtime *\
